@@ -1,0 +1,11 @@
+name: numerical-proyect
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python>=3.8
+  - numpy>=1.24.0
+  - matplotlib>=3.7.0
+  - pip
+  - pip:
+    - -r requirements.txt
